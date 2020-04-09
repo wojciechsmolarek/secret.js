@@ -1,17 +1,18 @@
 module.exports = {
 	url: `https://honey.davshoward.com`,
-	title: `Gatsby Honey`,
-	description: "A delicious baseline for Gatsby (v2).",
+	title: `Wojciech Smolarek`,
+	description: "",
+	robots: "index,follow",
 	social: {
 		image: `https://honey.davshoward.com/images/social.png`,
 		twitter: "davshoward",
 	},
 	author: {
-		name: "Davs Howard",
+		name: "Wojciech Smolarek",
 	},
 	manifest: {
-		name: `Gatsby Honey`,
-		short_name: `Honey`,
+		name: `Wojciech Smolarek`,
+		short_name: `Wojciech Smolarek`,
 		start_url: `/`,
 		background_color: `#663399`,
 		theme_color: `#663399`,

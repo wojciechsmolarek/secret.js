@@ -3,7 +3,10 @@ import { Layout, SEO } from "../layout";
 
 const SecondPage = () => (
 	<Layout>
-		<SEO title="Page two" />
+		<SEO
+			title="Page two"
+			robots="noindex"
+		/>
 		<section className="section-padding">
 			<div className="container rhythm">
 				<h1>Hi from the second page</h1>
