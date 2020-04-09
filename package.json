@@ -1,0 +1,59 @@
+{
+    "name": "gatsby-starter-honey",
+    "description": "A delicious baseline for Gatsby (v2).",
+    "version": "1.1.0",
+    "author": "Davs Howard <hi@davshoward.com>",
+    "dependencies": {
+        "@svgr/webpack": "^5.1.0",
+        "dotenv": "^8.2.0",
+        "focus-visible": "^5.0.2",
+        "gatsby": "^2.19.19",
+        "gatsby-image": "^2.2.41",
+        "gatsby-plugin-canonical-urls": "^2.1.20",
+        "gatsby-plugin-catch-links": "^2.1.25",
+        "gatsby-plugin-google-analytics": "^2.1.35",
+        "gatsby-plugin-manifest": "^2.2.41",
+        "gatsby-plugin-offline": "^3.0.35",
+        "gatsby-plugin-postcss": "^2.1.20",
+        "gatsby-plugin-react-axe": "^0.3.0",
+        "gatsby-plugin-react-helmet": "^3.1.22",
+        "gatsby-plugin-robots-txt": "^1.5.0",
+        "gatsby-plugin-sharp": "^2.4.5",
+        "gatsby-plugin-sitemap": "^2.2.27",
+        "gatsby-plugin-svgr": "^2.0.2",
+        "gatsby-plugin-web-font-loader": "^1.0.4",
+        "gatsby-source-filesystem": "^2.1.48",
+        "gatsby-transformer-sharp": "^2.3.14",
+        "postcss-color-mod-function": "^3.0.3",
+        "postcss-import": "^12.0.1",
+        "postcss-nested": "^4.2.1",
+        "postcss-preset-env": "^6.7.0",
+        "postcss-scss": "^2.0.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-helmet": "^5.2.1"
+    },
+    "devDependencies": {
+        "prettier": "^1.19.1"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write src/**/*.{js,jsx}",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davshoward/gatsby-starter-honey"
+    },
+    "bugs": {
+        "url": "https://github.com/davshoward/gatsby-starter-honey/issues"
+    }
+}
