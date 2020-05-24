@@ -9,7 +9,6 @@
         "focus-visible": "^5.0.2",
         "gatsby": "^2.19.19",
         "gatsby-image": "^2.2.41",
-        "gatsby-plugin-canonical-urls": "^2.1.20",
         "gatsby-plugin-catch-links": "^2.1.25",
         "gatsby-plugin-google-analytics": "^2.1.35",
         "gatsby-plugin-manifest": "^2.2.41",
