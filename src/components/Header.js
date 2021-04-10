@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
-import { Nav, Icon } from ".";
+import { Nav, Icon, Hero } from ".";
 
 const Header = ({ title }) => {
 	return (

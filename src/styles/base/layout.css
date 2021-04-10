@@ -42,13 +42,13 @@ html {
 .container {
 	margin: 0 auto;
 	padding: 0 var(--rhythm-md);
-	max-width: 1060px;
+	max-width: 36rem;
 
 	@media (--lg) {
 		max-width: 62rem;
 	}
 
 	@media (--xl) {
-		max-width: 84rem;
+		max-width: 1060px;
 	}
 }
