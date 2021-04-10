@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
 import "../styles/style.css";
-import { Header, Footer, Nav } from "../components";
+import { Header, Footer, Nav, Breadcrumb } from "../components";
 
 class Layout extends Component {
 	render() {

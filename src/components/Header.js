@@ -2,21 +2,23 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
-import { Nav, Icon, Hero } from ".";
+import { Nav, Hero, Breadcrumb } from ".";
 
 const Header = ({ title }) => {
 	return (
+		<>
 		<header id="header" className="header" role="banner">
 			<div className="container">
 				<div className="main-bar">
 					<Link to="/" className="logo">
-						<Icon name="logo" />
 						{title}
 					</Link>
 					<Nav />
 				</div>
 			</div>
 		</header>
+		<Breadcrumb />
+		</>
 	);
 };
 

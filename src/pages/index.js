@@ -11,8 +11,8 @@ const IndexPage = () => (
 
 		<section className="section-padding">
 			<div class="container rhythm">
-				<h1>👋 Cześć, jestem Wojciech</h1>
-				<p>Na co dzień zajmuję się pozycjonowaniem stron internetowych.</p>
+				<h2>👋 Cześć, jestem Wojciech</h2>
+				<h3>Na co dzień zajmuję się pozycjonowaniem stron internetowych.</h3>
 			</div>
 		</section>
 

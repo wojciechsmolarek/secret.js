@@ -4,12 +4,12 @@ import { Layout, SEO } from "../layout";
 const SecondPage = () => (
 	<Layout>
 		<SEO
-			title="Page two"
+			title="Kontakt"
 			robots="noindex"
 		/>
 		<section className="section-padding">
 			<div className="container rhythm">
-				<h1>Hi from the second page</h1>
+				<h1>Kontakt</h1>
 				<p>Welcome to page 2</p>
 			</div>
 		</section>
