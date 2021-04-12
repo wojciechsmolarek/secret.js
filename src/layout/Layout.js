@@ -22,9 +22,6 @@ class Layout extends Component {
 				`}
 				render={data => (
 					<React.Fragment>
-						<div id="skiptocontent" className="visuallyhidden">
-							<a href="#main">skip to main content</a>
-						</div>
 
 						<div id="layout-svgs" className="layout-svgs" />
 

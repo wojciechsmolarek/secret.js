@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import styles from "../styles/style.css";
 
 import { Nav, Hero, Breadcrumb } from ".";
 
-const Header = ({ title }) => {
+const Header = ({ title, onHideNav, onShowNav, showNav }) => {
 	return (
 		<>
 		<header id="header" className="header" role="banner">
@@ -13,7 +14,7 @@ const Header = ({ title }) => {
 					<Link to="/" className="logo">
 						{title}
 					</Link>
-					<Nav />
+					<Nav onHideNav={onHideNav} onShowNav={onShowNav} showNav={showNav} />
 				</div>
 			</div>
 		</header>
